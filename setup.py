@@ -13,7 +13,7 @@ if not os.path.isfile(libpath):
     elif machine == "i386":
         arch = "x86"
     elif machine.startswith("arm"):
-        arch = "arm"
+        arch = "armv7"
     else:
         pass
     fname = f"libfwlib32-{plat}-{arch}.so.{version}"
